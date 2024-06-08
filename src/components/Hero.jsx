@@ -11,15 +11,15 @@ const Hero = () => {
         className={`flex flex-col ${styles.paddingY} md:flex-row`}
       >
         <div className=" flex-1 ${styles.flexStart} flex-col xl:px-0 sm:px-16 px-6  ">
-          <div className=" flex flex-row  py-[6px] px-4 bg-discount-gradient items-center rounded-[10px] mb-2 ">
+          <div className=" flex flex-row  py-[6px] px-4 bg-discount-gradient items-center rounded-[20px] mb-3 ">
             <img
               src={discount}
               alt="discount"
               className=" w-[32px] h-[32px] mr-2"
             />
             <p className={`${styles.paragraph}`}>
-              <span className="text-white">20% </span>Discount For{" "}
-              <span className="text-white">New 1 Month </span>Account
+              {/* <span className="text-white">20% </span>Discount For{" "} */}
+              <span className="text-white">Get Your Local </span>Fashion
             </p>
           </div>
 
@@ -34,12 +34,10 @@ const Hero = () => {
             </div>
           </div>
           <h1 className="  font-poppins font-semibold ss:text-[68px] text-[52px] text-white ss:leading-[100px] leadind-[75px]">
-            Payment Method
+            Fashion Finds
           </h1>
           <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis
-            natus vitae totam quasi exercitationem possimus ullam, vero dolorem
-            qui impedit cumque maxime est.
+          Delhi, a vibrant metropolis, boasts an array of shopping options. Yet, sourcing high-quality, affordable clothing often proves difficult. Shoppers frequently face the challenge of finding stores that provide both excellent quality and reasonable prices. This issue highlights the need for a more accessible directory or guide that specifically targets and lists venues known for their value and quality, helping consumers navigate Delhi’s extensive but sometimes overwhelming market landscape.
           </p>
         </div>
 

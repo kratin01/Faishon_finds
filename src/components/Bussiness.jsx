@@ -30,13 +30,10 @@ const Bussiness = () => {
     <section id="features" className={layout.section}>
       <div className={layout.sectionInfo}>
         <h2 className={styles.heading2}>
-          You do the business, <br className="sm:block hidden" /> we’ll handle
-          the money.
+        You Focus On Fashion, <br className="sm:block hidden" /> we’ll Streamline Your Success.
         </h2>
         <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-          With the right credit card, you can improve your financial life by
-          building credit, earning rewards and saving money. But with hundreds
-          of credit cards on the market.
+        With the right platform, you can enhance your shopping experience by discovering quality clothing, finding great deals, and saving time. But with so many options available in Delhi's vast market...
         </p>
 
         <Button styles={`mt-10`} />

@@ -1,4 +1,4 @@
-import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star  } from "../assets";
+import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star, Sumit,Akshat,Kratin  } from "../assets";
 
 export const navLinks = [
   {
@@ -15,7 +15,7 @@ export const navLinks = [
   },
   {
     id: "clients",
-    title: "Clients",
+    title: "Our Team",
   },
 ];
 
@@ -23,23 +23,30 @@ export const features = [
   {
     id: "feature-1",
     icon: star,
-    title: "Rewards",
+    title: "Comprehensive Platform Creation",
     content:
-      "The best credit cards offer some tantalizing combinations of promotions and prizes",
+      "Develop Delhi Fashion Directory app for convenient access to high-quality, affordable clothing shops in Delhi.",
   },
   {
     id: "feature-2",
     icon: shield,
-    title: "100% Secured",
+    title: "Local Store Partnerships",
     content:
-      "We take proactive steps make sure your information and transactions are secure.",
+      "Partner with diverse local stores across Delhi to offer a wide range of fashion choices.",
   },
   {
-    id: "feature-3",
+    id: "Quality Checks",
     icon: send,
     title: "Balance Transfer",
     content:
-      "A balance transfer credit card can save you a lot of money in interest charges.",
+      "Ensuring listed shops meet standards through rigorous quality assessments for genuine, high-quality products.",
+  },
+  {
+    id: "feature-1",
+    icon: star,
+    title: "Revenue Strategies",
+    content:
+      " Generate income through subscription fees, premium listings, in-app ads, and affiliate marketing partnerships.",
   },
 ];
 
@@ -47,25 +54,33 @@ export const feedback = [
   {
     id: "feedback-1",
     content:
-      "Money is only a tool. It will take you wherever you wish, but it will not replace you as the driver.",
-    name: "Herman Jensen",
-    title: "Founder & Leader",
-    img: people01,
+      "FASHION FINDS is our answer to Delhi's fashion woes, promising quality and affordability.",
+    name: "Sumit Kumar",
+    title: "Co-Founder & CEO",
+    img: Sumit,
   },
   {
     id: "feedback-2",
     content:
-      "Money makes your life easier. If you're lucky to have it, you're lucky.",
-    name: "Steve Mark",
-    title: "Founder & Leader",
-    img: people02,
+      "Our revenue streams diversify through subscriptions, featured listings, and strategic partnerships",
+    name: "Akshat Jangra",
+    title: "Co-Founder & CFO",
+    img: Akshat,
   },
   {
     id: "feedback-3",
     content:
-      "It is usually people in the money business, finance, and international trade that are really rich.",
-    name: "Kenn Gallagher",
-    title: "Founder & Leader",
+      "Our robust technology infrastructure ensures seamless browsing and transactions for users..",
+    name: "Kratin Aggarwal",
+    title: "Co-Founder & CTO",
+    img: Kratin,
+  },
+  {
+    id: "feedback-3",
+    content:
+      "Our marketing strategies will spotlight our platform, attracting both consumers and clothing stores.",
+    name: "Tushar Jain",
+    title: "Co-Founder & CMO",
     img: people03,
   },
 ];

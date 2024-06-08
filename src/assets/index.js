@@ -23,8 +23,18 @@ import twitter from "./twitter.svg";
 import people01 from "./people01.png";
 import people02 from "./people02.png";
 import people03 from "./people03.png";
+// import logo3final from "./logo3final.svg";
+// import logomain from "./logomain.png";
+import Kratin from "./Kratin.jpeg";
+import Akshat from "./Akshat.jpeg";
+import Sumit from "./Sumit.jpeg";
 
 export {
+  Kratin,
+  Akshat,
+  Sumit,
+  // logomain,
+  // logo3final,
   airbnb,
   bill,
   binance,
